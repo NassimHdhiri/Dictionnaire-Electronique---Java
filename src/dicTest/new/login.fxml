@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.SubScene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.stage.Stage?>
+
+<Stage xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+    <scene>
+        <Scene>
+            <AnchorPane prefHeight="497.0" prefWidth="780.0" style="-fx-background-color: #00b4d8;">
+            <children>
+               <Text fill="#fcfcfc" layoutX="38.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dictionnaire Electronique">
+                  <font>
+                     <Font name="Gill Sans MT" size="27.0" />
+                  </font>
+               </Text>
+               <ImageView fitHeight="342.0" fitWidth="399.0" layoutX="14.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="D:\1\java\Translate-removebg-preview.png" />
+                  </image>
+               </ImageView>
+               <SubScene height="453.0" layoutX="354.0" layoutY="44.0" width="428.0">
+                 <root>
+                   <Region />
+                 </root>
+               </SubScene>
+               <Text fill="#1e1e1e" layoutX="538.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login">
+                  <font>
+                     <Font name="Gill Sans MT" size="27.0" />
+                  </font>
+               </Text>
+               <Button id="cancelBtn" cancelButton="true" layoutX="737.0" layoutY="8.0" mnemonicParsing="false" prefHeight="12.0" prefWidth="30.0" style="-fx-background-color: transparent; -fx-border-color: black; -fx-border-radius: 4px;" text="X">
+                  <font>
+                     <Font size="13.0" />
+                  </font>
+               </Button>
+               <Label layoutX="424.0" layoutY="156.0" text="Adresse :">
+                  <font>
+                     <Font size="18.0" />
+                  </font>
+               </Label>
+               <Label layoutX="411.0" layoutY="209.0" text="Mot de passe :">
+                  <font>
+                     <Font size="18.0" />
+                  </font>
+               </Label>
+               <PasswordField id="inputPwd" layoutX="538.0" layoutY="204.0" promptText="Enter password">
+                  <font>
+                     <Font size="15.0" />
+                  </font>
+               </PasswordField>
+               <TextField id="inputMail" layoutX="538.0" layoutY="153.0" promptText="Enter mail">
+                  <font>
+                     <Font size="15.0" />
+                  </font>
+               </TextField>
+               <Hyperlink id="linkFrgPwd" ellipsisString="" layoutX="575.0" layoutY="352.0" text="Forget password ?" textAlignment="CENTER" underline="true">
+                  <font>
+                     <Font size="9.0" />
+                  </font>
+               </Hyperlink>
+               <Text layoutX="368.0" layoutY="417.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ou se connecter en tant que :" />
+               <Hyperlink id="linkCreateAcc" ellipsisString="" layoutX="561.0" layoutY="448.0" text="Create an account DDD " underline="true" />
+               <Button id="connectBtn" layoutX="554.0" layoutY="322.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="122.0" style="-fx-border-color: #0096c7; -fx-border-radius: 22px; -fx-background-color: transparent;" text="Se connecter" textFill="#4f5253">
+                  <font>
+                     <Font size="13.0" />
+                  </font>
+               </Button>
+               <Button id="guestBtn" layoutX="555.0" layoutY="397.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="120.0" style="-fx-border-color: #0096c7; -fx-border-radius: 22px; -fx-background-color: transparent;" text="Guest" textFill="#4f5253">
+                  <font>
+                     <Font size="13.0" />
+                  </font>
+               </Button>
+               <ImageView fitHeight="41.0" fitWidth="42.0" layoutX="368.0" layoutY="142.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="D:\1\java\profile.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="29.0" fitWidth="28.0" layoutX="375.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="D:\1\java\cadenas.png" />
+                  </image>
+               </ImageView>
+            </children></AnchorPane>
+        </Scene>
+    </scene>
+</Stage>

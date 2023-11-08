@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.SubScene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="563.0" prefWidth="955.0" style="-fx-background-color: #00b4d8;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dicTest.dicController">
+           	<!-- TODO Add Nodes -->
+            <children>
+               <Text fill="#fcfcfc" layoutX="571.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dictionnaire Electronique">
+                  <font>
+                     <Font name="Gill Sans MT" size="27.0" />
+                  </font>
+               </Text>
+               <ImageView fitHeight="365.0" fitWidth="371.0" layoutX="551.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="D:\1\java\Translate-removebg-preview.png" />
+                  </image>
+               </ImageView>
+               <SubScene height="519.0" layoutX="1.0" layoutY="46.0" width="471.0">
+                 <root>
+                   <Region />
+                 </root>
+               </SubScene>
+               <Text fill="#1e1e1e" layoutX="189.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SignUp">
+                  <font>
+                     <Font name="Gill Sans MT" size="27.0" />
+                  </font>
+               </Text>
+               <Button id="cancelBtn" cancelButton="true" layoutX="901.0" layoutY="14.0" mnemonicParsing="false" prefHeight="12.0" prefWidth="30.0" style="-fx-background-color: transparent; -fx-border-color: black; -fx-border-radius: 4px;" text="X">
+                  <font>
+                     <Font size="13.0" />
+                  </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+               </Button>
+               <TextField id="inputMail" layoutX="205.0" layoutY="185.0" promptText="Enter mail">
+                  <font>
+                     <Font size="15.0" />
+                  </font>
+               </TextField>
+               <Button id="connectBtn" layoutX="133.0" layoutY="433.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="187.0" style="-fx-border-color: #0096c7; -fx-border-radius: 22px; -fx-background-color: transparent;" text="Se connecter" textFill="#4f5253">
+                  <font>
+                     <Font size="13.0" />
+                  </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+               </Button>
+               <ImageView fitHeight="41.0" fitWidth="42.0" layoutX="29.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="D:\1\java\profile.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="29.0" fitWidth="28.0" layoutX="36.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="D:\1\java\cadenas.png" />
+                  </image>
+               </ImageView>
+      <TextField id="inputMail" accessibleRole="PASSWORD_FIELD" layoutX="205.0" layoutY="274.0" promptText="Enter Password">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Hyperlink id="linkCreateAcc" ellipsisString="" layoutX="166.0" layoutY="478.0" text="Already have an account " underline="true" />
+      <Label layoutX="58.0" layoutY="362.0" text="Confirmer :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <PasswordField id="inputPwd" layoutX="205.0" layoutY="360.0" promptText="Re-Enter password">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </PasswordField>
+      <Label layoutX="94.0" layoutY="187.0" text="Adresse :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="276.0" text="Mot de passe :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+            </children>
+</AnchorPane>
